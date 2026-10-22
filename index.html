@@ -1,0 +1,202 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>index</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">El Museo</a>
+          <a href="#secc2">El Festival</a>
+          <a href="#secc3">Actividades</a>
+          <a href="#secc4">Trailers</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El Museo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Nacido como una fortaleza en el siglo XII, durante el reinado de Felipe Augusto se convirtió posteriormente en el museo más famoso del mundo. Actualmente consagrado como un recinto donde se reúnen las bellas artes como la arqueología y artes decorativas anteriores al impresionismo. Ubicado en París al margen del Río Sena alberga más de 35000 obras, de las cuales 7000 son pinturas y 380000 objetos y antigüedades. Además de contar con almacenes que protegen los bienes y riquezas del reino. Antiguamente utilizado como residencia real, pasó a convertirse en museo cuando Luis XIV se trasladó a Versalles, convirtiéndose en escenario de actos oficiales y poder absoluto de la monarquía y es hasta la Revolución Francesa que es transformado en museo público.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Abrió sus puertas en 1793 y actualmente guarda la obra más famosa y visitada del mundo, La Gioconda o Mona Lisa de Leonardo da Vinci. Su edificio está albergado en el Castillo del Louvre, que fue convertido en palacio real. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Te invitamos a darle click a la siguiente imagen para que puedas observar donde se llevará acabo la Feria.</p>
+		        <br>
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+
+        		<div class="contenedor-imagen secc1">
+        		</div>
+
+        		<a href="360visualizar.html">
+
+        		<img src="imagenes/img1a.png" title="img1a">
+        		</a>
+
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="img1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El Festival</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Festival Internacional de Narrativas París 2027 tiene como objetivo presentar libros de reconocidos autores que han transcendido a lo largo del tiempo, por contar historias adelatadas a su época, lecturas que se necesitan conocer y leer por lo menos una vez en la vida, permitiendo que las narrativas escritas ayuden a ampliar el conocimiento de la sociedad como parte de un sistema. También contará con la proyección de diversos documentales que descrubren dudas y generan nuevas interrogantes en la mente del observador. El festival sin duda nos llenará de ejemplos realistas sobre lo que la sociedad vive actualmente.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Por otro lado, se contará con conversatorios donde expertos en temas sociales y narrativas nos darán su punto de vista sobre la sociedad, su crecimiento, su desarrollo. Sin duda alguna, si te interesa el cambio social, saber si estamos evolucionando o involucionando, si la sociedad va hacia el futuro o repite el pasado, estas conferencias magistrales te interesan. Dale la oportunidad a estos grandes autores a entrar en tu mente y sacudirte un poco las creencias con las entras al festival. Te prometemos que saldrás viendo al mundo de distinta manera.</p>
+		        <br>
+		        <p>Te esperamos del 6 al 13 de marzo en un horario de 12 del día para conocer a cada uno de estos grandes autores. 
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="img2">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Actividades</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Como parte de las actividades a realizar en el Festival Internacional de Narrativas París 2027, te presentamos algunos trailers con información sobre los ponentes, libros, películas y documentales que se estarán proyectando.</p>
+		        <br>
+		        <p>Marcelo Gullo es un académico, analista y consultor argentino, realiza actividades dentro del ramo de las relaciones internacionales y es creador de la insubordinación fundante, defenediendo posiciones panhispánicas. Es licenciado y doctor en ciencia política, magíster en relaciones internacionales y graduado en estudios internacionales. Actualmente es asesor en materia de relaciones internacionales de la Federación Hispanoamericana de Trabajadores de la Educación y la Cultura y asesor de la vicepresidencia de la Comisión de Relaciones Exteriores de la Cámara de Diputados de la Nación Argentina, profesor en la Universidad Nacional de Lanús y la Escuela Superior de Guerra de Argentina e investigador asociado del Instituto de Estudios Estratégicos de la Universidad Federal Fluminense. Su obra más actual es Lepanto. Cuando España salvó a Europa en 2025.</p>
+		        <br>
+		        <p>Jiang Xueqin es un educador, escritor, historiador y teórico geopolítico chino-canadiense. Es reconocido por sus aportaciones a la reforma educativa de china, por promover la creatividad, el pensamiento crítico y la ciudadanía global. Tiene un canal de youtube “Predictive History”, donde aplica el análisis histórico estructural, la teoría de juegos y conceptos inspirados en la psicohistoria ficticia de Isaac Asimov que le permiten interpretar y predecir sucesos geopolíticos importantes. Actualmente es investigador de la Iniciativa de Innovación Educativa Global de la Harbard Graduate School of Education y es miembro de la Royal Society of Arts. Sus obras más famosas son Creative China de 2014 y Schools for the Soul de 2021.</p>
+		        <br>
+		        <p>Juan Miguel Zunzunegui es escritor y conferencista mexicano conocido por su enfoque hispanista de la historia de México. Es licenciado en comunicación y maestro en humanidades, especialista en filosofía, posgraduado en marxismo y materialismo histórico, especialista en religiones monoteístas y doctor en humanidades. Tiene un enfoque crítico y revisionista que han sido claves en sus publicaciones, donde reinterpreta eventos históricos. Sus últimos libros publicados en 2026 son: Al día siguiente de la conquista, Bernardino de Sahagún. Guardían de la memoria náhuatl y Hernán Cortés, encuentro y conquista.</p>
+		        <br>
+		        <p>Jorge Guerra es un escritor e investigador español conocido por sus obras sobre geopolítica, historia alternativa y crítica a la modernidad. Su trabajo explora temas como el poder en la sombra, las redes de influencia histórica y las estructuras de control político y religioso. Sus obras más famosas son la trilogía de la Nobleza Negra: Génesis del imperio Veneciano, El imperio Angloveneciano, El imperio de la 3ra. Guerra Mental. Además de América, la Cruzada del Papa.</p>
+		        <br>
+		        <p>Guillermo Mas Arellano es madrileño de nacimiento, es autor de cuatro libros: La Traición de los europeos: Ensayos de Tradición, Modernidad y Crítica cultural; los Deicidas: Más allá de la realidad y la ficción y por último El lugar de las sombras: El cine hermético en Hollywood y ‘Ernst Jünger’ y la tradición sapiencial en las crisis del mundo moderno. También es autor de un podcast en youtube llamado “Pura Virtud: Cine y Literatura” donde invita a grandes autores para compartir opiniones. Además, escribe para diversos medios de comunicación como El Correo de España, La Gaceta, Hércules o La Tribuna del País Vasco.</p>
+		        <br>
+		        <p>Antony Sutton fue un economista e historiador británico que realizó importantes estudios sobre la importancia de la inversión y la tecnología occidentales en el desarrollo de la Unión Soviética, así como la financiación de la gran banca de Wall Street a los bolcheviques, los nazis y a Franklin Delano Roosevelt, comentando que la banca está dominando toda la sociedad a través del Socialismo Corporativo. También llegó a pensamiento relacionados con las teorías de conspiración. Su última publicación fue Gold For Survival de 1999.</p>
+		      
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="img 3">
+        		<!--texto para la imagen-->
+        		<p></p>
+        		<br>
+        		<img src="imagenes/libros.png" title="libros">
+        		<br>
+        		<img src="imagenes/peliculas.png" title="peliculas">
+        		<br>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Trailers</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Como parte de las actividades planeadas para el Festival Internacional de Narrativas París 2027, se contará con una serie de conversatorios con grandes maestros de la literatura histórica, política y educativa. Además, una feria del libro donde podrás encontrar títulos de grandes escritores como 1984, un mundo feliz, entre otros. Y por último, una serie de proyecciones de documentales y películas que pondrán tu mente en jaque, te invitarán a considerar opciones que habías olvidado o sembrarán en tí una nueva forma de ver el mundo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Te invitamos a escanear el siguiente QR y observar la presentación de nuestros grandes invitados que tenemos preparado para tí.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+        		<img  src="imagenes/img4.png" title="img 4"><!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.uat.edu.mx/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los Derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
